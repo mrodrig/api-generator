@@ -1,0 +1,10 @@
+{
+	"name" : "fetchGithubApiEndpoints"
+	"type" : "REQUEST",
+	"methods" : [
+		{
+			"method" : "GET",
+			"url"    : "https://api.github.com"
+		}
+	]
+}
