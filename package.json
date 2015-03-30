@@ -17,7 +17,8 @@
         "generator"
     ],
     "dependencies": {
-    	"underscore": "1.6.0"
+    	"underscore": "1.6.0",
+        "request": "2.54.0"
     },
     "devDependencies": {
         "mocha": "~1.14.0",

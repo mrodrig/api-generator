@@ -1,5 +1,5 @@
 {
-	"name" : "fetchGithubApiEndpoints"
+	"name" : "fetchGithubApiEndpoints",
 	"type" : "REQUEST",
 	"methods" : [
 		{
