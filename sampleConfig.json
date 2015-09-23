@@ -3,7 +3,7 @@
 	"type" : "REQUEST",
 	"methods" : [
 		{
-			"method" : "GET",
+			"type" : "GET",
 			"url"    : "https://api.github.com"
 		}
 	]
