@@ -24,4 +24,4 @@ console.log(myApi);
 console.log(myApi.fetchGithubApiEndpoints);
 console.log(myApi.fetchGithubApiEndpoints.GET);
 
-console.log(myApi.fetchGithubApiEndpoints.GET());
+//console.log(myApi.fetchGithubApiEndpoints.GET());

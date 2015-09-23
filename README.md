@@ -17,11 +17,29 @@ $ npm install api-generator
 
 ```javascript
 var apiGen = require('api-generator');
+
+var config = {
+	"name" : "fetchGithubApiEndpoints",
+	"type" : "REQUEST",
+	"methods" : [
+		{
+			"type" : "GET",
+			"url"    : "https://api.github.com",
+			"callback": function (err, data) {
+				if (!err) { 
+					console.log("Success!", data);
+				}
+				console.log("Error!", err);
+			}
+		}
+	]
+};
+
+var myApi = apiGen([config]);
+
+console.log(myApi);
+// => { fetchGithubApiEndpoints: { GET: [Function] } }
 ```
-
-### API
-
-Coming soon...
 
 ## Tests
 
@@ -35,4 +53,6 @@ _Note_: This requires `mocha`, `should`, and `underscore`.
 
 ## Features
 
-- 
+- Automatic API Generation
+- Easily extensible
+- Simplifies repeated API generation

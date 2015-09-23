@@ -1,13 +1,13 @@
 {
     "author": "mrodrig",
     "name": "api-generator",
-    "description": "A memoization and caching library for NodeJS",
-    "version": "0.0.1",
+    "description": "An API generation library for NodeJS",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
-    	"url": "http://github.com/mrodrig/memo-cache.git"
+    	"url": "http://github.com/mrodrig/api-generator.git"
     },
-    "main": "./lib/memo-cache.js",
+    "main": "./lib/api-generator.js",
     "scripts": {
         "test": "./node_modules/.bin/mocha --reporter spec"
     },
@@ -18,12 +18,12 @@
     ],
     "dependencies": {
     	"underscore": "~1.8.3",
-        "request": "~2.54.0",
+        "request": "~2.63.0",
         "bluebird": "~2.10.1"
     },
     "devDependencies": {
-        "mocha": "~1.14.0",
-        "should": "~2.0.2"
+        "mocha": "~2.3.3",
+        "should": "~7.1.0"
     },
     "engines": {
     	"node": "*"
