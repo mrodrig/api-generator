@@ -4,6 +4,7 @@
 ![David - Dependency Checker Icon](https://david-dm.org/mrodrig/api-generator.png)
 [![Monthly Downloads](http://img.shields.io/npm/dm/api-generator.svg)](https://www.npmjs.org/package/api-generator)
 [![NPM version](https://img.shields.io/npm/v/api-generator.svg)](https://www.npmjs.org/package/api-generator)
+[![bitHound Score](https://www.bithound.io/github/mrodrig/api-generator/badges/score.svg)](https://www.bithound.io/github/mrodrig/api-generator)
 
 A memoization and caching library for NodeJS.
 

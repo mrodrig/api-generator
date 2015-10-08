@@ -2,7 +2,7 @@
     "author": "mrodrig",
     "name": "api-generator",
     "description": "An API generation library for NodeJS",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "repository": {
         "type": "git",
     	"url": "http://github.com/mrodrig/api-generator.git"
