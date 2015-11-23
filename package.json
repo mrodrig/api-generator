@@ -2,10 +2,10 @@
     "author": "mrodrig",
     "name": "api-generator",
     "description": "An API generation library for NodeJS",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "repository": {
         "type": "git",
-    	"url": "http://github.com/mrodrig/api-generator.git"
+        "url": "http://github.com/mrodrig/api-generator.git"
     },
     "main": "./lib/api-generator.js",
     "scripts": {
@@ -17,8 +17,8 @@
         "generator"
     ],
     "dependencies": {
-    	"underscore": "~1.8.3",
-        "request": "~2.65.0",
+        "request": "~2.67.0",
+        "underscore": "~1.8.3",
         "bluebird": "~3.0.5"
     },
     "devDependencies": {
@@ -26,7 +26,7 @@
         "should": "~7.1.1"
     },
     "engines": {
-    	"node": "*"
+        "node": "*"
     },
     "license": "MIT"
 }
