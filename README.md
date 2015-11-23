@@ -1,7 +1,7 @@
 # API Generator
 
 [![Build Status](https://travis-ci.org/mrodrig/api-generator.svg?branch=master)](https://travis-ci.org/mrodrig/api-generator)
-![David - Dependency Checker Icon](https://david-dm.org/mrodrig/api-generator.png)
+[![bitHound Dependencies](https://www.bithound.io/github/mrodrig/api-generator/badges/dependencies.svg)](https://www.bithound.io/github/mrodrig/api-generator/master/dependencies/npm)
 [![Monthly Downloads](http://img.shields.io/npm/dm/api-generator.svg)](https://www.npmjs.org/package/api-generator)
 [![NPM version](https://img.shields.io/npm/v/api-generator.svg)](https://www.npmjs.org/package/api-generator)
 [![bitHound Score](https://www.bithound.io/github/mrodrig/api-generator/badges/score.svg)](https://www.bithound.io/github/mrodrig/api-generator)
