@@ -1,7 +1,7 @@
-var apiGen = require('../../lib/api-generator.js'),
+let apiGen = require('../../src/api-generator.js'),
     configList = [__dirname + '/../../sampleConfig.json'];
     
-var config = {
+let config = {
 	"name" : "fetchGithubApiEndpoints",
 	"type" : "REQUEST",
 	"methods" : [
@@ -18,7 +18,7 @@ var config = {
 	]
 };
     
-var myApi = apiGen([config]);
+let myApi = apiGen([config]);
 
 console.log(myApi);
 console.log(myApi.fetchGithubApiEndpoints);

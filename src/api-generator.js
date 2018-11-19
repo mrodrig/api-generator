@@ -1,6 +1,6 @@
 'use strict';
 
-var _ = require('underscore'), // Require underscore
+let _ = require('underscore'), // Require underscore
     request = require('request'), // Require request
     promise = require('bluebird'), // Require bluebird
     requestAsync = promise.promisifyAll(request),
@@ -9,7 +9,7 @@ var _ = require('underscore'), // Require underscore
 /**
  * Client Accessible Functions
  */
-var controller = function (configList) {
+let controller = function (configList) {
     _.each(configList, function (config) {
         // If we are given a string, try reading the file that is at the given path
         //   since this should be a config file
@@ -33,11 +33,11 @@ var controller = function (configList) {
 };
 
 // Functions that generate the client-accessible API functions
-var generators = {
+let generators = {
     generateRequestApi : function (config, async) {
         // If the configuration is not valid:
         if (!validators.validateRequestConfig(config)) {
-            var errorMsg = "Invalid configuration file for: " + config.name;
+            let errorMsg = "Invalid configuration file for: " + config.name;
             console.log(errorMsg);
             // TODO: consider better approaches?
             generatedApi[config.name] = errorMsg;
@@ -47,7 +47,7 @@ var generators = {
         
         // For each of the methods, add the appropriate function to the client API
         _.each(config.methods, function (method) {
-            var opts = {
+            let opts = {
                     method: method.type,
                     uri:    method.url
             };
@@ -62,7 +62,7 @@ var generators = {
 };
 
 // Functions that returns a boolean of whether or not the configuration is valid
-var validators = {
+let validators = {
     validateRequestConfig : function (config, async) {
         return config.name && config.type && 
             (config.methods.length ? 
