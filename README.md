@@ -2,12 +2,12 @@
 
 **An API generation library for NodeJS.**
 
-[![Dependencies](https://img.shields.io/david/mrodrig/accm.svg?style=flat-square)](https://www.npmjs.org/package/accm)
+[![Dependencies](https://img.shields.io/david/mrodrig/api-generator.svg?style=flat-square)](https://www.npmjs.org/package/api-generator)
 [![Build Status](https://travis-ci.org/mrodrig/api-generator.svg?branch=master)](https://travis-ci.org/mrodrig/api-generator)
 [![Downloads](http://img.shields.io/npm/dm/api-generator.svg)](https://www.npmjs.org/package/api-generator)
 [![NPM version](https://img.shields.io/npm/v/api-generator.svg)](https://www.npmjs.org/package/api-generator)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1765da9b942286c0bb13/maintainability)](https://codeclimate.com/github/mrodrig/accm/maintainability)
-[![Known Vulnerabilities](https://snyk.io/test/npm/accm/badge.svg)](https://snyk.io/test/npm/accm)
+[![Maintainability](https://api.codeclimate.com/v1/badges/572a1d4298adbdad7fa1/maintainability)](https://codeclimate.com/github/mrodrig/api-generator/maintainability)
+[![Known Vulnerabilities](https://snyk.io/test/npm/api-generator/badge.svg)](https://snyk.io/test/npm/api-generator)
 
 ## Installation
 
