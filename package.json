@@ -2,7 +2,7 @@
     "author": "mrodrig",
     "name": "api-generator",
     "description": "An API generation library for NodeJS",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "repository": {
         "type": "git",
         "url": "http://github.com/mrodrig/api-generator.git"
@@ -17,9 +17,9 @@
         "generator"
     ],
     "dependencies": {
+        "bluebird": "3.7.2",
         "request": "2.88.2",
-        "underscore": "1.10.2",
-        "bluebird": "3.7.2"
+        "underscore": "^1.13.1"
     },
     "devDependencies": {
         "mocha": "7.1.2",
